@@ -1,0 +1,111 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto
+}
+
+body {
+  font-family: Inter;
+  background-color:#FBF9F3;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.slogan-text {
+  font-size:3rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.footer-link-text {
+  color: #004643;
+  font-size: 0.7rem;
+}
+
+.privacy-header-text {
+  font-size:2.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.privacy-policy-text {
+  font-family: inherit;
+  font-size:1rem;
+  color: #333333;
+}
+
+@media (min-width: 576px) {
+  .slogan-text {
+    font-size:3.2rem;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .footer-link-text {
+    color: #004643;
+    font-size: 0.8rem;
+  }
+
+  .privacy-header-text {
+    font-size:2.5rem;
+    font-weight: bold;
+    color: #333333;
+  }
+}
+@media (min-width: 768px) {
+  .slogan-text {
+    font-size:4.5rem;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .footer-link-text {
+    color: #004643;
+    font-size: 1rem;
+  }
+
+  .privacy-header-text {
+    font-size:3.5rem;
+    font-weight: bold;
+    color: #333333;
+  }
+}
+@media (min-width: 992px) {
+  .slogan-text {
+    font-size:6rem;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .footer-link-text {
+    color: #004643;
+    font-size: 1.2rem;
+  }
+
+  .privacy-header-text {
+    font-size:4rem;
+    font-weight: bold;
+    color: #333333;
+  }
+}
+@media (min-width: 1200px) {
+  .slogan-text {
+    font-size:7rem;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .footer-link-text {
+    color: #004643;
+    font-size: 1.5rem;
+  }
+
+  .privacy-header-text {
+    font-size:5rem;
+    font-weight: bold;
+    color: #333333;
+  }
+}
+
